@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-09T00:32:25 IST" name="Suite" finished-at="2022-12-09T00:32:31 IST" duration-ms="5723">
+    <groups>
+      <group name="Smoke,Sanity">
+        <method signature="LoginPageTest.validUserLogin()[pri:1, instance:com.wakesmart.testcases.LoginPageTest@51891008]" name="validUserLogin" class="com.wakesmart.testcases.LoginPageTest"/>
+      </group> <!-- Smoke,Sanity -->
+    </groups>
+    <test started-at="2022-12-09T00:32:25 IST" name="SampleProject" finished-at="2022-12-09T00:32:31 IST" duration-ms="5723">
+      <class name="com.wakesmart.testcases.LoginPageTest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.wakesmart.testcases.LoginPageTest@51891008]" started-at="2022-12-09T00:32:25 IST" name="browserLaunch" finished-at="2022-12-09T00:32:28 IST" duration-ms="2994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="validUserLogin()[pri:1, instance:com.wakesmart.testcases.LoginPageTest@51891008]" started-at="2022-12-09T00:32:28 IST" name="validUserLogin" finished-at="2022-12-09T00:32:31 IST" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.wakesmart.testcases.LoginPageTest@51891008]" started-at="2022-12-09T00:32:31 IST" name="tearDown" finished-at="2022-12-09T00:32:31 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wakesmart.testcases.LoginPageTest -->
+    </test> <!-- SampleProject -->
+  </suite> <!-- Suite -->
+</testng-results>
